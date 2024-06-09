@@ -9,7 +9,7 @@ public class EnrollmentHistoryInfo {
 		return credit;
 	}
 	
-	public String courseName() {
+	public String getCourseName() {
 		return courseName;
 	}
 }

@@ -12,7 +12,7 @@ public class StudentInfo extends UserInfo {
     private ArrayList<EnrollmentHistoryInfo> enrollmentHistory;
     private int[][] timeslot=new int[6][10];
 
-    public StudentInfo(String major, int year, int maxCredit, int userid, String username, ArrayList<EnrollmentHistoryInfo> enrollments) {
+    public StudentInfo(String major, int year, int maxCredit, String userid, String username, ArrayList<EnrollmentHistoryInfo> enrollments) {
         super(userid, username);
         this.major = major;  
         this.year = year;   

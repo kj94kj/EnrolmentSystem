@@ -13,7 +13,7 @@ public interface InsertCurrent {
 		
         PreparedStatement pstmt = null;
         try {
-            String sqlInsert = "INSERT INTO sqlCurrentEnrollmentInfo (section, courseName) " +
+            String sqlInsert = "INSERT INTO sqlcurrentEnrollmentinfo (section, courseName) " +
                 "VALUES (?, ?)";
             
             pstmt = conn.prepareStatement(sqlInsert);
